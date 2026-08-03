@@ -27,7 +27,10 @@ Still in early beta, open source, fork it if you want to add to the project.
 
 <div align="center">
 
-⭐ **If this farms you a night's worth of chests, [star the repo](https://github.com/S1MS4/final-swarm-bot).** ⭐<br>
+⭐ **If this farms you a night's worth of chests, [star the repo](https://github.com/S1MS4/final-swarm-bot).** ⭐
+
+<img src="sources/star.gif" width="440" alt="Clicking the star button">
+
 One click, costs you nothing, and it is the only way I can tell anyone uses this :D
 
 </div>
