@@ -14,7 +14,7 @@ Reads the screen, picks your upgrades, restarts the run, farms all night.
 [![OpenCV](https://img.shields.io/badge/built%20with-OpenCV-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](#license)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4)](#want-to-help)
-[![Stars](https://img.shields.io/github/stars/S1MS4/final-swarm-bot?style=social)](https://github.com/S1MS4/final-swarm-bot/stargazers)
+[![Stars](https://img.shields.io/github/stars/S1MS4/final-swarm-bot?style=social)](https://github.com/S1MS4/final-swarm-bot)
 
 ![The bot playing a wave on its own](sources/swarm-showcase.gif)
 
@@ -27,7 +27,7 @@ Still in early beta, open source, fork it if you want to add to the project.
 
 <div align="center">
 
-⭐ **If this farms you a night's worth of chests, [star the repo](https://github.com/S1MS4/final-swarm-bot/stargazers).** ⭐<br>
+⭐ **If this farms you a night's worth of chests, [star the repo](https://github.com/S1MS4/final-swarm-bot).** ⭐<br>
 One click, costs you nothing, and it is the only way I can tell anyone uses this :D
 
 </div>
@@ -381,7 +381,7 @@ Fork it, break it, send a pull request. Most useful right now: bug #1, and tunin
 
 ### Star it if it farmed for you :D
 
-[![Star this repo](https://img.shields.io/github/stars/S1MS4/final-swarm-bot?style=for-the-badge&logo=github&label=STAR%20THIS%20REPO&color=yellow)](https://github.com/S1MS4/final-swarm-bot/stargazers)
+[![Star this repo](https://img.shields.io/github/stars/S1MS4/final-swarm-bot?style=for-the-badge&logo=github&label=STAR%20THIS%20REPO&color=yellow)](https://github.com/S1MS4/final-swarm-bot)
 
 It is free, and it is the only feedback I get.
 
