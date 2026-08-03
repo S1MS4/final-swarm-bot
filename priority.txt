@@ -22,6 +22,11 @@ Axe
 [upgrades]
 # Best first. Anything not listed anywhere ranks below these
 # but above [low].
+#
+# NO LIFESTEAL GEAR? Delete the # on the next line. The bot stands still, so
+# Lifesteal is what keeps it alive. My Emerald set covers it, which is the only
+# reason this list does not have it.
+# Lifesteal
 Multishot @legendary
 Luck
 Stand Strong

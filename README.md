@@ -66,6 +66,12 @@ your build, not the bot :c
 
 ❗❗ **IMPORTANT: NO LIFESTEAL CAN NOT GUARANTEE YOU TO GO TO THE FINAL WAVE!** ❗❗
 
+❗ I personally did **not** make the bot pick Lifesteal AT ALL. My gear covers it,
+so the cards never needed to. If you have 0 Lifesteal you are definitely dying
+mid run. Open `priority.txt` and put `Lifesteal` near the top of `[upgrades]`,
+then it will grab it off the cards instead. See
+[Changing what it picks](#changing-what-it-picks).
+
 From what I've tested the most terms friendly approach is a non headless client
 so rip ;-; just leave the computer on lil bro.
 
@@ -75,80 +81,52 @@ that sentence. Use at your own risk.
 
 ## How to run it
 
-No coding needed. Open **PowerShell** from your Start menu and paste each block.
+No coding needed. Open **PowerShell** from your Start menu and paste this one line:
 
-**1. Install Python and Git.** Windows already has `winget`, so it does the
-downloading, clicking and PATH for you:
+```powershell
+irm https://raw.githubusercontent.com/S1MS4/final-swarm-bot/main/install.ps1 | iex
+```
+
+```
+what that line does, about 75 seconds:
+
+  1. installs Python 3.12 and Git through winget, skips whatever you have
+  2. refreshes PATH so you do not have to reopen the terminal
+  3. downloads the bot into a final-swarm-bot folder
+  4. builds a virtual environment so nothing clashes with your other python stuff
+  5. installs the libraries into it
+  6. stops. it does NOT start the bot, you have to be in a run first
+```
+
+<details>
+<summary>Rather do it by hand? Click here</summary>
+
+Fair, that line runs a script off the internet. Same thing, manually:
 
 ```powershell
 winget install -e --id Python.Python.3.12
 winget install -e --id Git.Git
 ```
 
-Now **close PowerShell and open it again**, otherwise it will not find them yet.
-
-<details>
-<summary>winget says it does not know that command?</summary>
-
-Older Windows. Grab them by hand instead:
-[Python 3.12](https://www.python.org/downloads/) (tick **Add Python to PATH**
-during setup, that box matters) and [Git](https://git-scm.com/downloads),
-defaults are fine.
-
-</details>
-
-**2. Get the files:**
+Close PowerShell and open it again, or it will not find them. Then:
 
 ```powershell
 git clone https://github.com/S1MS4/final-swarm-bot.git
 cd final-swarm-bot
-```
-
-Worth cloning rather than downloading a ZIP: when I push a fix you just type
-`git pull`.
-
-**3. (you can skip this) Make a virtual environment and install what it needs:**
-
-```powershell
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Skipping the venv? Then just run the last line on its own, that part is not
-optional:
-
-```powershell
-pip install -r requirements.txt
-```
-
-A venv is just a folder holding this project's packages, so they cannot clash
-with anything else on your PC and you can delete the whole thing by deleting the
-folder. Python's own guide is
-[here](https://docs.python.org/3/tutorial/venv.html) if you want the long version.
-
-You will know it worked when your prompt starts with `(.venv)`. **Every new
-terminal needs that middle line again** before you start the bot:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-<details>
-<summary>"running scripts is disabled on this system"?</summary>
-
-PowerShell blocking the activate script. This allows it for that one window only,
-then activate again:
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-```
+The venv is optional, `pip install -r requirements.txt` on its own works too.
+Python's guide to venvs is [here](https://docs.python.org/3/tutorial/venv.html).
+No winget on your Windows? Get [Python 3.12](https://www.python.org/downloads/)
+(tick **Add Python to PATH**) and [Git](https://git-scm.com/downloads) by hand.
 
 </details>
 
-**4. Open Final Swarm and press PLAY.** You must already be **in a run**, it will
-not press PLAY from the hub. Keep the game on your main monitor, not minimised.
+**Then open Final Swarm and press PLAY.** You must already be **in a run**, it
+will not press PLAY from the hub. Keep the game on your main monitor, not
+minimised.
 
 Copy my setup: **not fullscreen**, a **maximized window** on **1920x1080**. It
 measures the UI as a fraction of the window so other sizes should work, but this
@@ -164,10 +142,10 @@ one has the hours on it. Misread cards? Match my setup first.
 
 Potato also helps it read cards, fewer particles over the UI.
 
-**5. Start it** (if you made a venv, check `(.venv)` is showing in your prompt):
+**Now start it:**
 
 ```powershell
-python -m swarmbot.bot
+.\run.ps1
 ```
 
 Just wait some time lil bro ur not in a rush, it's the python libraries that have
@@ -190,10 +168,10 @@ Press `Shift + \` to stop. Two cards in a row, nobody at the keyboard:
 
 | Command | Does |
 |---------|------|
-| `python -m swarmbot.bot` | Farms forever |
-| `python -m swarmbot.bot --max-runs 1` | Does one run and stops |
-| `python -m swarmbot.bot --dry-run` | Decides but never clicks, good for watching it think |
-| `python -m swarmbot.bot --strategy discover-first` | Sadly i ran this for a while till i got most of the upgrades, i think i got all of them idk, but for the future use this to update the list |
+| `.\run.ps1` | Farms forever |
+| `.\run.ps1 --max-runs 1` | Does one run and stops |
+| `.\run.ps1 --dry-run` | Decides but never clicks, good for watching it think |
+| `.\run.ps1 --strategy discover-first` | Sadly i ran this for a while till i got most of the upgrades, i think i got all of them idk, but for the future use this to update the list |
 | `python -m tools.diagnose` | Tells you how the last session went |
 
 ## The build I use
