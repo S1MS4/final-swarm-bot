@@ -60,9 +60,11 @@ One click, costs you nothing, and it is the only way I can tell anyone uses this
 
 ## Read this before you start
 
-Script is designed for no move farm so you should stack Lifesteal. That is why I
-run the **Emerald Amulet**. Low Lifesteal build means it just dies, and that is
+❗ Script is designed for no move farm so you should stack Lifesteal. That is why
+I run the **Emerald Amulet**. Low Lifesteal build means it just dies, and that is
 your build, not the bot :c
+
+❗❗ **IMPORTANT: NO LIFESTEAL CAN NOT GUARANTEE YOU TO GO TO THE FINAL WAVE!** ❗❗
 
 From what I've tested the most terms friendly approach is a non headless client
 so rip ;-; just leave the computer on lil bro.
