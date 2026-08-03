@@ -105,11 +105,18 @@ cd final-swarm-bot
 Worth cloning rather than downloading a ZIP: when I push a fix you just type
 `git pull`.
 
-**3. Make a virtual environment and install what it needs:**
+**3. (you can skip this) Make a virtual environment and install what it needs:**
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Skipping the venv? Then just run the last line on its own, that part is not
+optional:
+
+```powershell
 pip install -r requirements.txt
 ```
 
@@ -155,7 +162,7 @@ one has the hours on it. Misread cards? Match my setup first.
 
 Potato also helps it read cards, fewer particles over the UI.
 
-**5. Start it** (with `(.venv)` showing in your prompt):
+**5. Start it** (if you made a venv, check `(.venv)` is showing in your prompt):
 
 ```powershell
 python -m swarmbot.bot
