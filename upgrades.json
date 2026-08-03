@@ -1,0 +1,2263 @@
+{
+  "schema_version": 1,
+  "upgrades": {
+    "Freeze": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 109,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-07-31T13:17:38+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 15
+            },
+            {
+              "at": "2026-07-31T13:40:09+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 4
+            }
+          ],
+          "samples": 2,
+          "confidence": "no-change",
+          "last_seen": "2026-07-31T13:40:09+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Luck": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 101,
+          "arrows": 2,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:06+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 40.0,
+                  "ratio": 1.111111,
+                  "before": "360%",
+                  "after": "400%"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T13:02:30+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 40.0,
+                  "ratio": 2.0,
+                  "before": "40%",
+                  "after": "80%"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:02:30+00:00",
+          "effects": {
+            "Luck": {
+              "kind": "percent",
+              "delta": 40.0,
+              "ratio": 1.555556,
+              "samples": 2
+            }
+          }
+        },
+        "legendary": {
+          "offered": 154,
+          "arrows": 4,
+          "first_wave": 14,
+          "observations": [
+            {
+              "at": "2026-07-31T13:53:31+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 80.0,
+                  "ratio": 1.571429,
+                  "before": "140%",
+                  "after": "220%"
+                }
+              },
+              "wave": 14
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:53:31+00:00",
+          "effects": {
+            "Luck": {
+              "kind": "percent",
+              "delta": 80.0,
+              "ratio": 1.571429,
+              "samples": 1
+            }
+          }
+        },
+        "epic": {
+          "offered": 323,
+          "arrows": 3,
+          "first_wave": 20,
+          "observations": [
+            {
+              "at": "2026-07-31T12:37:34+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 20
+            },
+            {
+              "at": "2026-07-31T12:38:29+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 60.0,
+                  "ratio": 1.15,
+                  "before": "400%",
+                  "after": "460%"
+                }
+              },
+              "wave": 20
+            },
+            {
+              "at": "2026-07-31T13:49:42+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 60.0,
+                  "ratio": 1.75,
+                  "before": "80%",
+                  "after": "140%"
+                }
+              },
+              "wave": 9
+            }
+          ],
+          "samples": 3,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:49:42+00:00",
+          "effects": {
+            "Luck": {
+              "kind": "percent",
+              "delta": 60.0,
+              "ratio": 1.45,
+              "samples": 2
+            }
+          }
+        },
+        "common": {
+          "offered": 105,
+          "arrows": 1,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:41:49+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Luck": {
+                  "kind": "percent",
+                  "delta": 20.0,
+                  "ratio": 1.333333,
+                  "before": "60%",
+                  "after": "80%"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:49+00:00",
+          "effects": {
+            "Luck": {
+              "kind": "percent",
+              "delta": 20.0,
+              "ratio": 1.333333,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Luck"
+    },
+    "Regen": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 83,
+          "arrows": 2,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T13:22:08+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 2.0,
+                  "ratio": 1.142857,
+                  "before": "14",
+                  "after": "16"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T13:40:50+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 2.0,
+                  "ratio": 1.4,
+                  "before": "5",
+                  "after": "7"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:40:50+00:00",
+          "effects": {
+            "HP Regen": {
+              "kind": "count",
+              "delta": 2.0,
+              "ratio": 1.271428,
+              "samples": 2
+            }
+          }
+        },
+        "epic": {
+          "offered": 344,
+          "arrows": 3,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:12+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 3.0,
+                  "ratio": 1.25,
+                  "before": "12",
+                  "after": "15"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T12:37:20+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 3.0,
+                  "ratio": 1.2,
+                  "before": "15",
+                  "after": "18"
+                }
+              },
+              "wave": 19
+            },
+            {
+              "at": "2026-07-31T13:11:48+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 3.0,
+                  "ratio": 1.375,
+                  "before": "8",
+                  "after": "11"
+                }
+              },
+              "wave": 10
+            },
+            {
+              "at": "2026-07-31T13:53:42+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 3.0,
+                  "ratio": 1.375,
+                  "before": "8",
+                  "after": "11"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 4,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:53:42+00:00",
+          "effects": {
+            "HP Regen": {
+              "kind": "count",
+              "delta": 3.0,
+              "ratio": 1.3125,
+              "samples": 4
+            }
+          }
+        },
+        "common": {
+          "offered": 105,
+          "arrows": 1,
+          "first_wave": 2,
+          "observations": [
+            {
+              "at": "2026-07-31T12:51:12+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Crit Chance": {
+                  "kind": "percent",
+                  "delta": 2.0,
+                  "ratio": 1.111111,
+                  "before": "18%",
+                  "after": "20%"
+                },
+                "Evasion": {
+                  "kind": "percent",
+                  "delta": 5.0,
+                  "ratio": null,
+                  "before": "0%",
+                  "after": "5%"
+                },
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 1.0,
+                  "ratio": 1.2,
+                  "before": "5",
+                  "after": "6"
+                },
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.15,
+                  "ratio": 1.15,
+                  "before": "x1",
+                  "after": "x1.15"
+                },
+                "Projectile Count": {
+                  "kind": "count",
+                  "delta": 2.0,
+                  "ratio": null,
+                  "before": "0",
+                  "after": "2"
+                },
+                "Size": {
+                  "kind": "mult",
+                  "delta": -0.1,
+                  "ratio": 0.916667,
+                  "before": "x1.2",
+                  "after": "x1.1"
+                }
+              },
+              "wave": 2
+            },
+            {
+              "at": "2026-07-31T13:41:15+00:00",
+              "confidence": "ok",
+              "changed": {
+                "HP Regen": {
+                  "kind": "count",
+                  "delta": 1.0,
+                  "ratio": 1.142857,
+                  "before": "7",
+                  "after": "8"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:15+00:00",
+          "effects": {
+            "Crit Chance": {
+              "kind": "percent",
+              "delta": 2.0,
+              "ratio": 1.111111,
+              "samples": 1
+            },
+            "Evasion": {
+              "kind": "percent",
+              "delta": 5.0,
+              "ratio": null,
+              "samples": 1
+            },
+            "HP Regen": {
+              "kind": "count",
+              "delta": 1.0,
+              "ratio": 1.171428,
+              "samples": 2
+            },
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.15,
+              "ratio": 1.15,
+              "samples": 1
+            },
+            "Projectile Count": {
+              "kind": "count",
+              "delta": 2.0,
+              "ratio": null,
+              "samples": 1
+            },
+            "Size": {
+              "kind": "mult",
+              "delta": -0.1,
+              "ratio": 0.916667,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Health Regen"
+    },
+    "Blaze": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 106,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:02:18+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T13:50:37+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 12
+            },
+            {
+              "at": "2026-07-31T14:20:21+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 11
+            }
+          ],
+          "samples": 3,
+          "confidence": "effect-only",
+          "last_seen": "2026-07-31T14:20:21+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Soul of Swiftness": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 334,
+          "arrows": 4,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:09+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 20.0,
+                  "ratio": 1.105263,
+                  "before": "190%",
+                  "after": "210%"
+                },
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.063492,
+                  "before": "x3.15",
+                  "after": "x3.35"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T13:00:15+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 20.0,
+                  "ratio": 1.142857,
+                  "before": "140%",
+                  "after": "160%"
+                },
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.16,
+                  "before": "x1.25",
+                  "after": "X1.45"
+                }
+              },
+              "wave": 4
+            }
+          ],
+          "samples": 2,
+          "confidence": "ambiguous",
+          "last_seen": "2026-07-31T13:00:15+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 20.0,
+              "ratio": 1.12406,
+              "samples": 2
+            },
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.2,
+              "ratio": 1.111746,
+              "samples": 2
+            }
+          }
+        }
+      }
+    },
+    "Attack Speed": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 345,
+          "arrows": 3,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-08-01T15:21:27+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 20.0,
+                  "ratio": 1.1,
+                  "before": "200%",
+                  "after": "220%"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-08-01T15:21:27+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 20.0,
+              "ratio": 1.1,
+              "samples": 1
+            }
+          }
+        },
+        "common": {
+          "offered": 124,
+          "arrows": 1,
+          "first_wave": 3,
+          "observations": [
+            {
+              "at": "2026-07-31T12:56:45+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 5.0,
+                  "ratio": 1.037037,
+                  "before": "135%",
+                  "after": "140%"
+                }
+              },
+              "wave": 3
+            },
+            {
+              "at": "2026-07-31T13:41:30+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 5.0,
+                  "ratio": 1.029412,
+                  "before": "170%",
+                  "after": "175%"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:30+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 5.0,
+              "ratio": 1.033224,
+              "samples": 2
+            }
+          }
+        },
+        "rare": {
+          "offered": 125,
+          "arrows": 2,
+          "first_wave": 2,
+          "observations": [
+            {
+              "at": "2026-07-31T13:36:57+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 10.0,
+                  "ratio": 1.0625,
+                  "before": "160%",
+                  "after": "170%"
+                }
+              },
+              "wave": 2
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:36:57+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 10.0,
+              "ratio": 1.0625,
+              "samples": 1
+            }
+          }
+        },
+        "legendary": {
+          "offered": 135,
+          "arrows": 4,
+          "first_wave": 1,
+          "observations": [
+            {
+              "at": "2026-07-31T13:36:37+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 25.0,
+                  "ratio": 1.185185,
+                  "before": "135%",
+                  "after": "160%"
+                }
+              },
+              "wave": 1
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:36:37+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 25.0,
+              "ratio": 1.185185,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Attack Speed"
+    },
+    "Lifesteal": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 338,
+          "arrows": 2,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:33+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Lifesteal": {
+                  "kind": "percent",
+                  "delta": 0.5,
+                  "ratio": 1.031056,
+                  "before": "16.1%",
+                  "after": "16.6%"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T13:18:16+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Lifesteal": {
+                  "kind": "percent",
+                  "delta": 0.5,
+                  "ratio": 1.033333,
+                  "before": "15%",
+                  "after": "15.5%"
+                }
+              },
+              "wave": 15
+            },
+            {
+              "at": "2026-07-31T13:37:28+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Lifesteal": {
+                  "kind": "percent",
+                  "delta": 0.5,
+                  "ratio": 1.033333,
+                  "before": "15%",
+                  "after": "15.5%"
+                }
+              },
+              "wave": 3
+            }
+          ],
+          "samples": 3,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:37:28+00:00",
+          "effects": {
+            "Lifesteal": {
+              "kind": "percent",
+              "delta": 0.5,
+              "ratio": 1.033333,
+              "samples": 3
+            }
+          }
+        },
+        "rare": {
+          "offered": 113,
+          "arrows": 1,
+          "first_wave": 11,
+          "observations": [
+            {
+              "at": "2026-07-31T13:50:22+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Lifesteal": {
+                  "kind": "percent",
+                  "delta": 0.1,
+                  "ratio": 1.006452,
+                  "before": "15.5%",
+                  "after": "15.6%"
+                }
+              },
+              "wave": 11
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:50:22+00:00",
+          "effects": {
+            "Lifesteal": {
+              "kind": "percent",
+              "delta": 0.1,
+              "ratio": 1.006452,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Lifesteal"
+    },
+    "Bolt": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 361,
+          "arrows": 4,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:14+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T12:36:49+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 17
+            },
+            {
+              "at": "2026-07-31T13:03:01+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T13:41:25+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T14:20:58+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 12
+            }
+          ],
+          "samples": 5,
+          "confidence": "effect-only",
+          "last_seen": "2026-07-31T14:20:58+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Size": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 368,
+          "arrows": 2,
+          "first_wave": 10,
+          "observations": [
+            {
+              "at": "2026-07-31T13:13:10+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.3,
+                  "ratio": 1.272727,
+                  "before": "x1.1",
+                  "after": "X1.4"
+                }
+              },
+              "wave": 10
+            },
+            {
+              "at": "2026-07-31T13:53:48+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 15
+            },
+            {
+              "at": "2026-07-31T14:14:41+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.3,
+                  "ratio": 1.333333,
+                  "before": "x0.9",
+                  "after": "x1.2"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 3,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T14:14:41+00:00",
+          "effects": {
+            "Size": {
+              "kind": "mult",
+              "delta": 0.3,
+              "ratio": 1.30303,
+              "samples": 2
+            }
+          }
+        },
+        "rare": {
+          "offered": 97,
+          "arrows": 1,
+          "first_wave": 2,
+          "observations": [
+            {
+              "at": "2026-07-31T12:50:55+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.2,
+                  "before": "x1",
+                  "after": "x1.2"
+                }
+              },
+              "wave": 2
+            },
+            {
+              "at": "2026-07-31T13:42:02+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.16,
+                  "before": "x1.25",
+                  "after": "X1.45"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:42:02+00:00",
+          "effects": {
+            "Size": {
+              "kind": "mult",
+              "delta": 0.2,
+              "ratio": 1.18,
+              "samples": 2
+            }
+          }
+        },
+        "legendary": {
+          "offered": 153,
+          "arrows": 3,
+          "first_wave": 10,
+          "observations": [
+            {
+              "at": "2026-07-31T13:11:43+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 10
+            },
+            {
+              "at": "2026-07-31T13:17:45+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.4,
+                  "ratio": 1.285714,
+                  "before": "x1.4",
+                  "after": "x1.8"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:17:45+00:00",
+          "effects": {
+            "Size": {
+              "kind": "mult",
+              "delta": 0.4,
+              "ratio": 1.285714,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Size"
+    },
+    "Health": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 337,
+          "arrows": 3,
+          "first_wave": 16,
+          "observations": [
+            {
+              "at": "2026-07-31T12:36:19+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 880.0,
+                  "ratio": 1.119048,
+                  "before": "7,392",
+                  "after": "8,272"
+                }
+              },
+              "wave": 16
+            },
+            {
+              "at": "2026-07-31T13:36:48+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 880.0,
+                  "ratio": 1.25,
+                  "before": "3,520",
+                  "after": "4,400"
+                }
+              },
+              "wave": 2
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:36:48+00:00",
+          "effects": {
+            "Max HP": {
+              "kind": "count",
+              "delta": 880.0,
+              "ratio": 1.184524,
+              "samples": 2
+            }
+          }
+        },
+        "common": {
+          "offered": 117,
+          "arrows": 1,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:41:10+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 352.0,
+                  "ratio": 1.066667,
+                  "before": "5,280",
+                  "after": "5,632"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:10+00:00",
+          "effects": {
+            "Max HP": {
+              "kind": "count",
+              "delta": 352.0,
+              "ratio": 1.066667,
+              "samples": 1
+            }
+          }
+        },
+        "rare": {
+          "offered": 91,
+          "arrows": 2,
+          "first_wave": 14,
+          "observations": [
+            {
+              "at": "2026-07-31T13:17:14+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 528.0,
+                  "ratio": 1.096774,
+                  "before": "5,456",
+                  "after": "5,984"
+                }
+              },
+              "wave": 14
+            },
+            {
+              "at": "2026-07-31T13:54:17+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 528.0,
+                  "ratio": 1.065217,
+                  "before": "8,096",
+                  "after": "8,624"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:54:17+00:00",
+          "effects": {
+            "Max HP": {
+              "kind": "count",
+              "delta": 528.0,
+              "ratio": 1.080995,
+              "samples": 2
+            }
+          }
+        },
+        "legendary": {
+          "offered": 147,
+          "arrows": 4,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-07-31T13:17:29+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 1760.0,
+                  "ratio": 1.294118,
+                  "before": "5,984",
+                  "after": "7,744"
+                }
+              },
+              "wave": 15
+            },
+            {
+              "at": "2026-07-31T13:41:35+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 1760.0,
+                  "ratio": 1.3125,
+                  "before": "5,632",
+                  "after": "7,392"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:35+00:00",
+          "effects": {
+            "Max HP": {
+              "kind": "count",
+              "delta": 1760.0,
+              "ratio": 1.303309,
+              "samples": 2
+            }
+          }
+        }
+      },
+      "footer_stat": "Max Health"
+    },
+    "Movement Speed": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 398,
+          "arrows": 3,
+          "first_wave": 18,
+          "observations": [
+            {
+              "at": "2026-07-31T13:22:44+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.3,
+                  "ratio": 1.162162,
+                  "before": "x1.85",
+                  "after": "x2.15"
+                }
+              },
+              "wave": 18
+            },
+            {
+              "at": "2026-07-31T13:53:26+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.3,
+                  "ratio": 1.171429,
+                  "before": "x1.75",
+                  "after": "x2.05"
+                }
+              },
+              "wave": 14
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:53:26+00:00",
+          "effects": {
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.3,
+              "ratio": 1.166796,
+              "samples": 2
+            }
+          }
+        },
+        "common": {
+          "offered": 118,
+          "arrows": 1,
+          "first_wave": 3,
+          "observations": [
+            {
+              "at": "2026-07-31T12:56:55+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.1,
+                  "ratio": 1.086957,
+                  "before": "x1.15",
+                  "after": "x1.25"
+                }
+              },
+              "wave": 3
+            },
+            {
+              "at": "2026-07-31T13:41:42+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.1,
+                  "ratio": 1.125,
+                  "before": "x0.8",
+                  "after": "x0.9"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:42+00:00",
+          "effects": {
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.1,
+              "ratio": 1.105978,
+              "samples": 2
+            }
+          }
+        },
+        "rare": {
+          "offered": 105,
+          "arrows": 2,
+          "first_wave": 10,
+          "observations": [
+            {
+              "at": "2026-07-31T13:12:46+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.137931,
+                  "before": "X1.45",
+                  "after": "x1.65"
+                }
+              },
+              "wave": 10
+            },
+            {
+              "at": "2026-07-31T13:41:55+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.222222,
+                  "before": "x0.9",
+                  "after": "x1.1"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:55+00:00",
+          "effects": {
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.2,
+              "ratio": 1.180076,
+              "samples": 2
+            }
+          }
+        },
+        "legendary": {
+          "offered": 172,
+          "arrows": 4,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-07-31T13:54:37+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.4,
+                  "ratio": 1.195122,
+                  "before": "x2.05",
+                  "after": "x2.45"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:54:37+00:00",
+          "effects": {
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.4,
+              "ratio": 1.195122,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Movement Speed"
+    },
+    "Power Trio": {
+      "type": "stat",
+      "rarities": {
+        "legendary": {
+          "offered": 156,
+          "arrows": 4,
+          "first_wave": 18,
+          "observations": [
+            {
+              "at": "2026-07-31T12:37:04+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Attack Speed": {
+                  "kind": "percent",
+                  "delta": 20.0,
+                  "ratio": 1.095238,
+                  "before": "210%",
+                  "after": "230%"
+                },
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.25,
+                  "ratio": 1.025432,
+                  "before": "x9.83",
+                  "after": "x10.08"
+                },
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 704.0,
+                  "ratio": 1.085106,
+                  "before": "8,272",
+                  "after": "8,976"
+                }
+              },
+              "wave": 18
+            }
+          ],
+          "samples": 1,
+          "confidence": "ambiguous",
+          "last_seen": "2026-07-31T12:37:04+00:00",
+          "effects": {
+            "Attack Speed": {
+              "kind": "percent",
+              "delta": 20.0,
+              "ratio": 1.095238,
+              "samples": 1
+            },
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.25,
+              "ratio": 1.025432,
+              "samples": 1
+            },
+            "Max HP": {
+              "kind": "count",
+              "delta": 704.0,
+              "ratio": 1.085106,
+              "samples": 1
+            }
+          }
+        }
+      }
+    },
+    "Projectile Count": {
+      "type": "stat",
+      "rarities": {
+        "legendary": {
+          "offered": 136,
+          "arrows": 2,
+          "first_wave": 4,
+          "observations": [
+            {
+              "at": "2026-07-31T13:40:24+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Projectile Count": {
+                  "kind": "count",
+                  "delta": 2.0,
+                  "ratio": null,
+                  "before": "0",
+                  "after": "2"
+                }
+              },
+              "wave": 4
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:49:51+00:00",
+          "effects": {
+            "Projectile Count": {
+              "kind": "count",
+              "delta": 2.0,
+              "ratio": null,
+              "samples": 1
+            }
+          }
+        },
+        "epic": {
+          "offered": 176,
+          "arrows": 1,
+          "first_wave": 4,
+          "observations": [
+            {
+              "at": "2026-07-31T13:40:42+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Projectile Count": {
+                  "kind": "count",
+                  "delta": 1.0,
+                  "ratio": 1.5,
+                  "before": "2",
+                  "after": "3"
+                }
+              },
+              "wave": 4
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:40:42+00:00",
+          "effects": {
+            "Projectile Count": {
+              "kind": "count",
+              "delta": 1.0,
+              "ratio": 1.5,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Projectile Count"
+    },
+    "Damage": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 384,
+          "arrows": 3,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:03:31+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.5,
+                  "ratio": 1.068681,
+                  "before": "x7.28",
+                  "after": "x7.78"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:03:31+00:00",
+          "effects": {
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.5,
+              "ratio": 1.068681,
+              "samples": 1
+            }
+          }
+        },
+        "common": {
+          "offered": 121,
+          "arrows": 1,
+          "first_wave": 4,
+          "observations": [
+            {
+              "at": "2026-07-31T12:58:31+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.028249,
+                  "before": "x7.08",
+                  "after": "x7.28"
+                }
+              },
+              "wave": 4
+            },
+            {
+              "at": "2026-07-31T13:41:04+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.2,
+                  "ratio": 1.025543,
+                  "before": "x7.83",
+                  "after": "x8.03"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:04+00:00",
+          "effects": {
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.2,
+              "ratio": 1.026896,
+              "samples": 2
+            }
+          }
+        },
+        "legendary": {
+          "offered": 131,
+          "arrows": 4,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-08-01T15:20:27+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.8,
+                  "ratio": 1.094899,
+                  "before": "x8.43",
+                  "after": "x9.23"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-08-01T15:20:27+00:00",
+          "effects": {
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.8,
+              "ratio": 1.094899,
+              "samples": 1
+            }
+          }
+        },
+        "rare": {
+          "offered": 104,
+          "arrows": 2,
+          "first_wave": 9,
+          "observations": [
+            {
+              "at": "2026-07-31T13:49:46+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.4,
+                  "ratio": 1.04745,
+                  "before": "x8.43",
+                  "after": "x8.83"
+                }
+              },
+              "wave": 9
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:49:46+00:00",
+          "effects": {
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.4,
+              "ratio": 1.04745,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Damage"
+    },
+    "Ban Hammer": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 6,
+          "acquired": true,
+          "effects": null,
+          "samples": 4,
+          "last_seen": "2026-08-01T16:45:05+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Daggers": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 78
+        }
+      }
+    },
+    "Bananarang": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 46,
+          "acquired": true,
+          "effects": null,
+          "samples": 43,
+          "last_seen": "2026-08-03T17:09:17+00:00",
+          "first_wave": 2
+        }
+      }
+    },
+    "Spike Ball": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 73,
+          "acquired": true,
+          "effects": null,
+          "samples": 3,
+          "last_seen": "2026-08-01T15:31:45+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Ninja Star": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 55,
+          "acquired": true,
+          "effects": null,
+          "samples": 47,
+          "last_seen": "2026-08-03T17:09:42+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Sword": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 69,
+          "acquired": true,
+          "effects": null,
+          "samples": 2,
+          "last_seen": "2026-08-01T15:30:27+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Frost Walker": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 61
+        }
+      }
+    },
+    "Firestaff": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 55,
+          "acquired": true,
+          "effects": null,
+          "samples": 25,
+          "last_seen": "2026-08-03T17:54:54+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Crit Chance": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 105,
+          "arrows": 2,
+          "first_wave": 3,
+          "observations": [
+            {
+              "at": "2026-07-31T13:37:21+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Crit Chance": {
+                  "kind": "percent",
+                  "delta": 5.0,
+                  "ratio": 1.277778,
+                  "before": "18%",
+                  "after": "23%"
+                }
+              },
+              "wave": 3
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:37:21+00:00",
+          "effects": {
+            "Crit Chance": {
+              "kind": "percent",
+              "delta": 5.0,
+              "ratio": 1.277778,
+              "samples": 1
+            }
+          }
+        },
+        "common": {
+          "offered": 102,
+          "arrows": 1,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:41:20+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Crit Chance": {
+                  "kind": "percent",
+                  "delta": 2.0,
+                  "ratio": 1.086957,
+                  "before": "23%",
+                  "after": "25%"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:41:20+00:00",
+          "effects": {
+            "Crit Chance": {
+              "kind": "percent",
+              "delta": 2.0,
+              "ratio": 1.086957,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Critical Chance"
+    },
+    "Armor": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 336,
+          "arrows": 2,
+          "first_wave": 13,
+          "observations": [
+            {
+              "at": "2026-07-31T13:16:48+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Armor": {
+                  "kind": "percent",
+                  "delta": 6.0,
+                  "ratio": 1.272727,
+                  "before": "22%",
+                  "after": "28%"
+                }
+              },
+              "wave": 13
+            },
+            {
+              "at": "2026-07-31T13:54:01+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Armor": {
+                  "kind": "percent",
+                  "delta": 6.0,
+                  "ratio": 1.272727,
+                  "before": "22%",
+                  "after": "28%"
+                }
+              },
+              "wave": 15
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:54:01+00:00",
+          "effects": {
+            "Armor": {
+              "kind": "percent",
+              "delta": 6.0,
+              "ratio": 1.272727,
+              "samples": 2
+            }
+          }
+        },
+        "rare": {
+          "offered": 115,
+          "arrows": 1,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:48:53+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Armor": {
+                  "kind": "percent",
+                  "delta": 2.0,
+                  "ratio": 1.1,
+                  "before": "20%",
+                  "after": "22%"
+                }
+              },
+              "wave": 5
+            }
+          ],
+          "samples": 1,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T13:48:53+00:00",
+          "effects": {
+            "Armor": {
+              "kind": "percent",
+              "delta": 2.0,
+              "ratio": 1.1,
+              "samples": 1
+            }
+          }
+        }
+      },
+      "footer_stat": "Armor"
+    },
+    "Demon Slayer": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 57,
+          "first_wave": 1,
+          "observations": [
+            {
+              "at": "2026-07-31T13:36:42+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 1
+            },
+            {
+              "at": "2026-08-01T15:24:15+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 18
+            }
+          ],
+          "samples": 2,
+          "confidence": "effect-only",
+          "last_seen": "2026-08-01T15:24:15+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Perilous Fervor": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 67,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:02:43+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T14:20:32+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 12
+            }
+          ],
+          "samples": 2,
+          "confidence": "effect-only",
+          "last_seen": "2026-07-31T14:20:32+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Thorns": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 96,
+          "arrows": 1,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:40:58+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Thorns": {
+                  "kind": "count",
+                  "delta": 10.0,
+                  "ratio": null,
+                  "before": "0",
+                  "after": "10"
+                }
+              },
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T14:09:34+00:00",
+              "confidence": "ok",
+              "changed": {
+                "Thorns": {
+                  "kind": "count",
+                  "delta": 10.0,
+                  "ratio": null,
+                  "before": "0",
+                  "after": "10"
+                }
+              },
+              "wave": 1
+            }
+          ],
+          "samples": 2,
+          "confidence": "ok",
+          "last_seen": "2026-07-31T14:09:34+00:00",
+          "effects": {
+            "Thorns": {
+              "kind": "count",
+              "delta": 10.0,
+              "ratio": null,
+              "samples": 2
+            }
+          }
+        }
+      },
+      "footer_stat": "Thorns"
+    },
+    "Stand Strong": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 49,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-07-31T13:18:24+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 15
+            },
+            {
+              "at": "2026-07-31T13:40:18+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 4
+            },
+            {
+              "at": "2026-07-31T14:19:03+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 9
+            }
+          ],
+          "samples": 3,
+          "confidence": "effect-only",
+          "last_seen": "2026-07-31T14:19:03+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Lightning Staff": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 60,
+          "acquired": true,
+          "effects": null,
+          "samples": 45,
+          "last_seen": "2026-08-03T17:53:55+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Axe": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 71,
+          "acquired": true,
+          "effects": null,
+          "samples": 16,
+          "last_seen": "2026-08-03T16:06:55+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Missile": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 77,
+          "acquired": true,
+          "effects": null,
+          "samples": 30,
+          "last_seen": "2026-08-03T15:01:25+00:00",
+          "first_wave": 2
+        }
+      }
+    },
+    "Giant's Strength": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 186,
+          "arrows": 4,
+          "first_wave": 2,
+          "observations": [
+            {
+              "at": "2026-07-31T13:37:13+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Damage": {
+                  "kind": "mult",
+                  "delta": 0.25,
+                  "ratio": 1.035311,
+                  "before": "x7.08",
+                  "after": "x7.33"
+                },
+                "Max HP": {
+                  "kind": "count",
+                  "delta": 880.0,
+                  "ratio": 1.2,
+                  "before": "4,400",
+                  "after": "5,280"
+                },
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": -0.2,
+                  "ratio": 0.8,
+                  "before": "x1",
+                  "after": "x0.8"
+                },
+                "Size": {
+                  "kind": "mult",
+                  "delta": 0.25,
+                  "ratio": 1.25,
+                  "before": "x1",
+                  "after": "x1.25"
+                }
+              },
+              "wave": 2
+            }
+          ],
+          "samples": 1,
+          "confidence": "ambiguous",
+          "last_seen": "2026-07-31T13:37:13+00:00",
+          "effects": {
+            "Damage": {
+              "kind": "mult",
+              "delta": 0.25,
+              "ratio": 1.035311,
+              "samples": 1
+            },
+            "Max HP": {
+              "kind": "count",
+              "delta": 880.0,
+              "ratio": 1.2,
+              "samples": 1
+            },
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": -0.2,
+              "ratio": 0.8,
+              "samples": 1
+            },
+            "Size": {
+              "kind": "mult",
+              "delta": 0.25,
+              "ratio": 1.25,
+              "samples": 1
+            }
+          }
+        }
+      }
+    },
+    "Multishot": {
+      "type": "stat",
+      "rarities": {
+        "legendary": {
+          "offered": 47,
+          "first_wave": 5,
+          "observations": [
+            {
+              "at": "2026-07-31T13:48:40+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            },
+            {
+              "at": "2026-07-31T14:12:41+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 1
+            }
+          ],
+          "samples": 2,
+          "confidence": "effect-only",
+          "last_seen": "2026-07-31T14:12:41+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Bow": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 72,
+          "acquired": true,
+          "effects": null,
+          "samples": 3,
+          "last_seen": "2026-08-01T15:31:10+00:00",
+          "first_wave": 1
+        }
+      }
+    },
+    "Wind Blessing": {
+      "type": "stat",
+      "rarities": {
+        "epic": {
+          "offered": 207,
+          "arrows": 4,
+          "first_wave": 2,
+          "observations": [
+            {
+              "at": "2026-07-31T14:13:03+00:00",
+              "confidence": "ambiguous",
+              "changed": {
+                "Evasion": {
+                  "kind": "percent",
+                  "delta": 5.0,
+                  "ratio": null,
+                  "before": "0%",
+                  "after": "5%"
+                },
+                "Movement Speed": {
+                  "kind": "mult",
+                  "delta": 0.15,
+                  "ratio": 1.15,
+                  "before": "x1",
+                  "after": "x1.15"
+                },
+                "Size": {
+                  "kind": "mult",
+                  "delta": -0.1,
+                  "ratio": 0.9,
+                  "before": "x1",
+                  "after": "x0.9"
+                }
+              },
+              "wave": 2
+            }
+          ],
+          "samples": 1,
+          "confidence": "ambiguous",
+          "last_seen": "2026-07-31T14:13:03+00:00",
+          "effects": {
+            "Evasion": {
+              "kind": "percent",
+              "delta": 5.0,
+              "ratio": null,
+              "samples": 1
+            },
+            "Movement Speed": {
+              "kind": "mult",
+              "delta": 0.15,
+              "ratio": 1.15,
+              "samples": 1
+            },
+            "Size": {
+              "kind": "mult",
+              "delta": -0.1,
+              "ratio": 0.9,
+              "samples": 1
+            }
+          }
+        }
+      }
+    },
+    "Piercing": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 3
+        }
+      }
+    },
+    "Ricochet": {
+      "type": "stat",
+      "rarities": {
+        "rare": {
+          "offered": 68,
+          "arrows": 1,
+          "first_wave": 15,
+          "observations": [
+            {
+              "at": "2026-08-01T16:11:02+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 15
+            },
+            {
+              "at": "2026-08-01T16:19:45+00:00",
+              "confidence": "no-change",
+              "changed": {},
+              "wave": 5
+            }
+          ],
+          "samples": 2,
+          "confidence": "effect-only",
+          "last_seen": "2026-08-01T16:19:45+00:00",
+          "effects": null
+        }
+      }
+    },
+    "Revolver": {
+      "type": "weapon",
+      "rarities": {
+        "weapon": {
+          "offered": 54,
+          "acquired": true,
+          "effects": null,
+          "samples": 24,
+          "last_seen": "2026-08-03T16:07:07+00:00",
+          "first_wave": 1
+        }
+      }
+    }
+  },
+  "updated": "2026-08-03T17:55:30+00:00"
+}

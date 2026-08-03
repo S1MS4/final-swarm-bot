@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bot output: session logs, dumped frames, overlays. Regenerated every run.
+runs/
+
+# Agent tooling
+.claude/
+.agents/
+skills-lock.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+
+# One-off capture helper, not part of running the bot
+tools/record.py

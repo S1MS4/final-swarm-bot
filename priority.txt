@@ -1,0 +1,46 @@
+# Which cards the bot takes. Edit freely - it is read at startup.
+#
+# Order matters: higher in a list = picked first.
+# Lines starting with # are ignored. Blank lines are fine.
+# Add "@legendary" (or @epic / @rare / @common) after a name to only
+# treat it as good at that rarity.
+
+
+[weapons]
+# Best first. If none of these is offered, the bot spends a reroll
+# (3 per run, never used on stat upgrades).
+Ban Hammer
+Bananarang
+Ninja Star
+Lightning Staff
+Firestaff
+Revolver
+Missile
+Axe
+
+
+[upgrades]
+# Best first. Anything not listed anywhere ranks below these
+# but above [low].
+Multishot @legendary
+Luck
+Stand Strong
+Demon Slayer
+Projectile Count
+Armor
+Health
+Attack Speed
+Damage
+
+
+[low]
+# Taken only when nothing better is on offer.
+Piercing
+Freeze
+Ricochet
+Thorns
+
+
+[avoid]
+# Taken only when it is the single option on screen.
+Movement Speed
